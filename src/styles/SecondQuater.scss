@@ -1,0 +1,37 @@
+.secondquater {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #20232F;
+}
+
+.secondquater__top {
+    display: flex;
+    margin: 1rem 0;
+    margin-top: 2rem;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 46px;
+        color: white;
+        letter-spacing: 2px;
+
+        @media screen and (max-width: 480px) {
+            font-size: 40px;
+        }
+    }
+}
+
+.secondquater__bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 68px;
+    padding-bottom: 6.5rem;
+    padding-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    // background-color: red;
+}
